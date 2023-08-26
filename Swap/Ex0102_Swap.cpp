@@ -5,12 +5,12 @@ using namespace std;
 bool CheckSorted(int arr[], int size)
 {
 	for (int i = 0; i < size; i++) {
-		if ((arr[0] <= arr[1])) {
+		if ((arr[0] <= arr[1]) || (arr[1] <= arr[2])) {
 			return true;
 		}
-		if (arr[1] <= arr[2]) {
+		/*if (arr[1] <= arr[2]) {
 			return true;
-		}
+		}*/
 		else return false;
 			
 	}
@@ -35,7 +35,7 @@ void Print(int* arr, int size)
 	cout << endl;
 }
 
-int main()
+int mainEx0102Swap()
 {
 	// 3°³ Á¤·Ä
 	{
