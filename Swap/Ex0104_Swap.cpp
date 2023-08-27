@@ -26,7 +26,7 @@ void Print2(int* arr, int size)
 }
 
 
-int main()
+int mainEx0104Swap()
 {
 	// 비교 횟수 세보기, 더 효율적인 방법은 없을까?
 	{
